@@ -23,6 +23,15 @@ export type BrowserNames =
   | 'uc_chinese_android'
   | 'webview_android';
 
+export type BrowserEngineNames =
+  | 'Blink'
+  | 'EdgeHTML'
+  | 'Gecko'
+  | 'Presto'
+  | 'Trident'
+  | 'WebKit'
+  | 'V8';
+
 /**
  * The browser namespace.
  */
@@ -69,6 +78,16 @@ export interface ReleaseStatement {
    * The URL of the release notes.
    */
   release_notes?: string;
+
+  /**
+   * Name of the browser's underlying engine.
+   */
+  engine?: BrowserEngineNames;
+
+  /**
+   * Version of the engine corresponding to the browser version.
+   */
+  engine_version?: string;
 
   /**
    * A property indicating where in the lifetime cycle this release is in.
