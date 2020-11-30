@@ -59,6 +59,53 @@
           "deprecated": false
         }
       },
+      "onerror": {
+        "__compat": {
+          "support": {
+            "chrome": {
+              "version_added": "43"
+            },
+            "chrome_android": {
+              "version_added": "≤87"
+            },
+            "edge": {
+              "version_added": "17"
+            },
+            "firefox": {
+              "version_added": "44"
+            },
+            "firefox_android": {
+              "version_added": "≤83"
+            },
+            "ie": {
+              "version_added": false
+            },
+            "opera": {
+              "version_added": "15> ≤72"
+            },
+            "opera_android": {
+              "version_added": "≤60"
+            },
+            "safari": {
+              "version_added": "10.1> ≤12"
+            },
+            "safari_ios": {
+              "version_added": "11.3"
+            },
+            "samsunginternet_android": {
+              "version_added": "≤12.1"
+            },
+            "webview_android": {
+              "version_added": "≤86"
+            }
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
       "onstatechange": {
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ServiceWorker/onstatechange",
@@ -114,6 +161,53 @@
           },
           "status": {
             "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "postMessage": {
+        "__compat": {
+          "support": {
+            "chrome": {
+              "version_added": "40"
+            },
+            "chrome_android": {
+              "version_added": "≤87"
+            },
+            "edge": {
+              "version_added": "17"
+            },
+            "firefox": {
+              "version_added": "44"
+            },
+            "firefox_android": {
+              "version_added": "≤83"
+            },
+            "ie": {
+              "version_added": false
+            },
+            "opera": {
+              "version_added": "15> ≤72"
+            },
+            "opera_android": {
+              "version_added": "≤60"
+            },
+            "safari": {
+              "version_added": "10.1> ≤12"
+            },
+            "safari_ios": {
+              "version_added": "11.3"
+            },
+            "samsunginternet_android": {
+              "version_added": "≤12.1"
+            },
+            "webview_android": {
+              "version_added": "≤86"
+            }
+          },
+          "status": {
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }

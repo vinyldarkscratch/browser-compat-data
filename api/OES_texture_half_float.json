@@ -46,6 +46,55 @@
           "standard_track": true,
           "deprecated": false
         }
+      },
+      "HALF_FLOAT_OES": {
+        "__compat": {
+          "support": {
+            "chrome": {
+              "version_added": null
+            },
+            "chrome_android": {
+              "version_added": false
+            },
+            "edge": {
+              "version_added": "14",
+              "version_removed": "79"
+            },
+            "firefox": {
+              "version_added": null
+            },
+            "firefox_android": {
+              "version_added": false
+            },
+            "ie": {
+              "version_added": false
+            },
+            "opera": {
+              "version_added": "15",
+              "version_removed": "15> ≤72"
+            },
+            "opera_android": {
+              "version_added": false
+            },
+            "safari": {
+              "version_added": "6.1> ≤8"
+            },
+            "safari_ios": {
+              "version_added": "8"
+            },
+            "samsunginternet_android": {
+              "version_added": false
+            },
+            "webview_android": {
+              "version_added": false
+            }
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
       }
     }
   }
